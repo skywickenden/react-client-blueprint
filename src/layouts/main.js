@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
 import { css } from "linaria";
 
@@ -7,7 +7,7 @@ const styles = {
     color: #872258;
     font-size: 30px;
   `
-}
+};
 
 const MainLayout = props => (
   <div>

@@ -14,7 +14,7 @@ it("Renders and has text content", () => {
   // All HTML is tested by the snapshot
   const titleContent = getByText("React Client Blueprint");
 
-  const { critical, other } = collect(titleContent, css);
+  const { critical } = collect(titleContent, css);
   expect(critical).toEqual(expect.stringContaining("color:#872258;"));
   expect(critical).toEqual(expect.stringContaining("font-size:30px;"));
 
