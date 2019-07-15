@@ -29,3 +29,7 @@ CSS is implemented via linaria. See `./src/layouts/main.js` for an example.
 ### Test
 
 Testing is performed using Jest and SuperTest. See an example in `./foo.test.js`. Run tests from the parent folder with `docker-compose run client npm run test`.  For an example of how to test css see `./src/layouts/main.js`.
+
+### Linting
+
+Linting is done with eslint. Run the linter with `docker-compose run client npm run lint`.
